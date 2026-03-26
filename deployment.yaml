@@ -15,10 +15,10 @@ spec:
         app: html-demo
     spec:
       containers:
-      - name: html-demo
-        image: tharikaashree/html-demo:latest
-        ports:
-        - containerPort: 80
+        - name: html-demo
+          image: tharikaashree/html-demo:latest
+          ports:
+            - containerPort: 80
 
 ---
 apiVersion: v1
