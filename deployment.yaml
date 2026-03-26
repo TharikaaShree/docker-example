@@ -19,6 +19,7 @@ spec:
         image: tharikaashree/html-demo:latest
         ports:
         - containerPort: 80
+
 ---
 apiVersion: v1
 kind: Service
@@ -32,4 +33,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 30007
+      nodePort: 30010
